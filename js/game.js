@@ -56,7 +56,7 @@ getNewQuestion = () => {
   if (availableQuesions.length === 0 || questionTracker >= MAX_QUESTIONS) {
       localStorage.setItem('mostRecentScore', score);
       //score page
-      return window.location.assign('/submitscore.html');
+      return window.location.assign('/brainbox/submitscore.html');
   }
   questionTracker++;
   qTracker.innerText = questionTracker + "/" + MAX_QUESTIONS;
