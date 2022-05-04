@@ -1,0 +1,82 @@
+<!--Code Reference: https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Web Technologies Coursework">
+    <meta name="author" content="Tim Drummond | 40479269">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Box | Quizzes </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/game.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <header>
+        <nav class="navbar">
+            <a href="index.html"><img src="img/image.png" alt="Site Logo"></a>
+            <!--Home Button-->
+            <button class="returnbtn">
+                <a href="/index.html" class="fa fa-home fa-2x"></a>
+            </button>
+            <!--Home Button End-->
+        </nav>
+        </header>
+    <!--Navigation Bar End-->
+
+    <div class="container">
+        <div id="game" class="justify-center flex-column">
+            <div id="hud">
+                <div id="hud-item">
+                  <p class="hud-text">
+                    Question
+                  </p>
+                  <h1 class="hud-numbers" id="questionTracker"></h1>
+                </div>
+                <div id="hud-item">
+                  <p class="hud-text">
+                    Score
+                  </p>
+                  <h1 class="hud-numbers" id="quizScore">
+                    0
+                  </h1>
+                </div>
+              </div>
+            <div class="quizquestions">
+                <h3 id="question">Question blahblah?</h3>
+            </div>
+            <div class="answer-container">
+                <p class="choice-letter">A</p>
+                <p class="answer-choice" data-number="1">Choice 1</p>
+            </div>
+            <div class="answer-container">
+                <p class="choice-letter">B</p>
+                <p class="answer-choice" data-number="2">Choice 2</p>
+            </div>
+            <div class="answer-container">
+                <p class="choice-letter">C</p>
+                <p class="answer-choice" data-number="3">Choice 3</p>
+            </div>
+            <div class="answer-container">
+                <p class="choice-letter">D</p>
+                <p class="answer-choice" data-number="4">Choice 4</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div style="text-align: center;">
+            <a href="https://github.com/40479269" class="fa fa-github fa-5x"></a>
+            <a href="https://www.linkedin.com/in/tim-drummond-79794320a/" class="fa fa-linkedin fa-5x"></a>
+        <p>© 2022 Tim Drummond. All rights reserved.</p>
+    </div>
+    <!--Footer End--> 
+</body>
+<!--SCRIPTS-->
+<script src="js/game.js"></script>
+<!--Scripts End-->
+</html>

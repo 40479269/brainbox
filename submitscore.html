@@ -1,0 +1,64 @@
+<!--Code Reference: https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Web Technologies Coursework">
+    <meta name="author" content="Tim Drummond | 40479269">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Box | Quizzes </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/submitscore.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body>
+    <!--Navigation Bar-->
+    <header>
+        <nav class="navbar">
+            <a href="index.html"><img src="img/image.png" alt="Site Logo"></a>
+            <!--Home Button-->
+            <button class="returnbtn">
+                <a href="/index.html" class="fa fa-home fa-2x"></a>
+            </button>
+            <!--Home Button End-->
+        </nav>
+        </header>
+        <!--Navigation Bar End-->
+    <div class="container">
+        <div id="scoreBox" class="flex-center flex-column">
+            <h2>Congratulations!</h2>
+            <h2>Your score is:</h2>
+            <h1 id="finalScore"></h1>
+            <form>
+                <input
+                  type="text"
+                  name="username"
+                  id="username"
+                  placeholder="username"
+                />
+                <button
+                  type="submit"
+                  class="btn"
+                  id="saveScoreBtn"
+                  onclick="saveHighScore(event)"
+                  disabled
+                >
+                  Submit Score
+                </button>
+            </form>
+            <a class="btn" href="/quiz.html">Try Again</a>
+            <a class="btn" href="/leaderboards.html">Leaderboard</a>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+        <div style="text-align: center;">
+            <a href="https://github.com/40479269" class="fa fa-github fa-5x"></a>
+            <a href="https://www.linkedin.com/in/tim-drummond-79794320a/" class="fa fa-linkedin fa-5x"></a>
+        <p>© 2022 Tim Drummond. All rights reserved.</p>
+    </div>
+    <!--Footer End--> 
+</body>
+<script src="js/scores.js"></script>
+</html>
