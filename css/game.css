@@ -1,0 +1,68 @@
+.answer-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.6rem;
+    border: 4px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+ 
+.answer-container:hover {
+    cursor: pointer;
+    box-shadow: 0.8px black;
+    transform: translateY(-0.1rem);
+    transition: 0.1s;
+}
+
+.choice-letter {
+    padding: 1.5rem 2.5rem;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.answer-choice {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.returnbtn {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: hidden;
+    font-size: 28px;
+}
+
+#game {
+    background-image: linear-gradient(315deg, #2976aa 0%, #3eadcf 74%);
+    border: solid 4px black;
+    padding: 5px 30px 30px 30px;
+    border-radius: 100px 100px;
+}
+
+#hud {
+    display:flex;
+    justify-content: space-around;
+}
+  
+.hud-text {
+    text-align: center;
+    font-size: 1.3rem;
+}
+  
+.hud-numbers {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.h3 {
+    word-wrap: break-word;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}

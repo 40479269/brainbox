@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+/* CSS reset */
+* {
+	box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Default Text & Design */
+
+body{
+    background-image: url("https://snipstock.com/assets/cdn/png/a311540b1463e0e4bbb492f133de6ece.png");
+    background-color: #f0f0f0;
+}
+
+li, a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1.8rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 550;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+header {
+    background-color: #1b1b1b;
+}
+
+
+/* Buttons */
+
+.football {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    width: 25rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    background-image: url('/img/football2.png');
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 0 1px black;
+    border: 1px solid black;
+}
+
+.football:hover {
+    font-size: 1.7rem;
+    box-shadow: 0 2px black;
+    transition: 0.2s;
+}
+
+.music {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    width: 25rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    background-image: url('/img/musicquiz.png');
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 0 1px black;
+    border: 1px solid black;
+}
+
+.music:hover {
+    font-size: 1.7rem;
+    box-shadow: 0 2px black;
+    transition: 0.2s;
+}
+
+.generalknow {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    width: 25rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    background-image: url('/img/searchbar.png');
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 0 1px black;
+    border: 1px solid black;
+}
+
+.generalknow:hover {
+    font-size: 1.7rem;
+    box-shadow: 0 2px black;
+    transition: 0.2s;
+}
+
+.videogames {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    width: 25rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    background-image: url('/img/videogames.png');
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 0 1px black;
+    border: 1px solid black;
+}
+
+.videogames:hover {
+    font-size: 1.7rem;
+    box-shadow: 0 2px black;
+    transition: 0.2s;
+}
+
+.btn:active {
+    background-color: #1b1b1b;
+    box-shadow: 0 2px rgb(0, 0, 0);
+    transform: translate(4px);
+    transition: 0.2s;
+}
+
+/* Configurations */
+
+.container {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+#info {
+    background-image: linear-gradient(315deg, #2976aa 0%, #3eadcf 74%);
+    border: solid 4px black;
+    padding: 5px 30px 30px 30px;
+    border-radius: 100px 100px;
+}
+  
+.container > * {
+    width: 80%;
+}
+  
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+  
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+  
+.justify-center {
+    justify-content: center;
+}
+  
+
+/* Nav Bar Settings */
+
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+}
+
+.nav-pages{
+    transition: all 0.3s ease 0s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-pages li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav-pages li a{
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    color: #f0f0f0;
+}
+
+.nav-pages li a:hover{
+    opacity: 0.7;
+    font-size: 18px;
+}
+
+.nav-pages li a.current{
+    color: #47ABC2;
+}
+
+/* Burger Menu */
+
+.burgermenu {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: hidden;
+    font-size: 28px;
+    display: none;
+}
+
+
+/* Font Awesome Configurations */
+
+.fa {
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    color: #47ABC2;
+    padding: 0px 5px 0px;
+}
+
+.fa-github {
+    color: #47ABC2;
+    padding: 0px 5px 0px;
+}
+
+.fa-home {
+    color: #f0f0f0;
+}
+
+/* Footer */
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px 30px 10px;
+    background-color: #1b1b1b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    color: #f0f0f0;
+}
+
+/* Other Screen Devices */
+@media screen and (max-width: 820px) {
+    .burgermenu{
+        display: block;
+    }
+
+    .nav-pages{
+        position: fixed;
+        left: -100%;
+        top: 100px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #1b1b1b;
+        width: 100%;
+        text-align: center;
+        transition: 0.4s;
+
+    }
+
+    .nav-pages.active{
+        left: 0%;
+    }
+
+    .navlinks{
+        margin: 12px 0;
+    }
+}
