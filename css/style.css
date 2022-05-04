@@ -60,7 +60,7 @@ header {
     text-align: center;
     text-decoration: none;
     color: #000000;
-    background-image: url('/img/football2.png');
+    background-image: url('/brainbox/img/football2.png');
     display: inline-block;
     cursor: pointer;
     border-radius: 40px;
@@ -82,7 +82,7 @@ header {
     text-align: center;
     text-decoration: none;
     color: #000000;
-    background-image: url('/img/musicquiz.png');
+    background-image: url('/brainbox/img/musicquiz.png');
     display: inline-block;
     cursor: pointer;
     border-radius: 40px;
@@ -104,7 +104,7 @@ header {
     text-align: center;
     text-decoration: none;
     color: #000000;
-    background-image: url('/img/searchbar.png');
+    background-image: url('/brainbox/img/searchbar.png');
     display: inline-block;
     cursor: pointer;
     border-radius: 40px;
@@ -126,7 +126,7 @@ header {
     text-align: center;
     text-decoration: none;
     color: #000000;
-    background-image: url('/img/videogames.png');
+    background-image: url('/brainbox/img/videogames.png');
     display: inline-block;
     cursor: pointer;
     border-radius: 40px;
